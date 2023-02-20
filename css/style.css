@@ -19,13 +19,21 @@ header{
 main{
   background-color: rgba(255, 230, 0, 0.296);
   width: 100%;
-  min-height: 90px; /* todo provvisorio*/
+  min-height: 70px; /* todo provvisorio*/
 }
 
 footer{
-  background-color: rgba(255, 128, 0, 0.077);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  
   width: 100%;
-  min-height: 90px; /* todo provvisorio*/ 
+  background-color: #23272A;
+  min-height: 70px; /* todo provvisorio*/ 
+  padding: 40px;
+  padding-bottom: 0;
+  /* padding-top: 20px; */
+
 }
 
 
@@ -88,7 +96,7 @@ nav ul li a:hover{
 }
 
 
-#login{
+header .login{
   border: black 1px dashed;
   background-color: #DDA820;
   text-decoration: none;
@@ -141,19 +149,35 @@ nav ul li a:hover{
 /* section_2 */
 
 .section_2{
-  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px;
+  background-color: #ffffff;
   
   
+}
+
+.container_box_section2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+  /* background-color: rgb(255, 51, 0); */ /*solo per vedere e comprendere le dimensioni del container*/
+  border: black 1px dashed;
+  width: 60%;
+  /* min-height: 300px; */
+
+
 }
 
 .box1_section2{
   background-color: #1E90FF;
   border: black 1px dashed;
-  width: 30%;
-  min-height: 300px;
+  width: 60%;
+  min-height: 400px;
   
   
 }
@@ -162,8 +186,8 @@ nav ul li a:hover{
 .box2_section2{
   background-color: #FFC0CB;
   border: black 1px dashed;
-  width: 20%;
-  min-height: 300px;
+  width: 40%;
+  min-height: 400px;
 
 
 }
@@ -175,30 +199,120 @@ nav ul li a:hover{
 
 /* section_3 */
 .section_3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
   background-color: #D3D3D3;
 
 }
 
-/* section_4 */
-.section_4{
+.container_box_section3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  background-color: #ffffff;
+  /* background-color: rgb(255, 51, 0); */ /*solo per vedere e comprendere le dimensioni del container*/
+  border: black 1px dashed;
+  width: 60%;
+  /* min-height: 300px; */
+
+
+}
+
+.box1_section3{
+  background-color: #FFC0CB;
+  border: black 1px dashed;
+  width: 40%;
+  min-height: 400px;
+  
   
 }
+
+
+.box2_section3{
+  background-color: #1E90FF;
+  border: black 1px dashed;
+  width: 60%;
+  min-height: 400px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* section_4 */
+.section_4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffff;
+  
+  
+}
+
+.container_box_section4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+  /* background-color: rgb(255, 51, 0); */ /*solo per vedere e comprendere le dimensioni del container*/
+  border: black 1px dashed;
+  width: 60%;
+  /* min-height: 300px; */
+
+
+}
+
+.box1_section4{
+  background-color: #1E90FF;
+  border: black 1px dashed;
+  width: 60%;
+  min-height: 400px;
+  
+  
+}
+
+
+.box2_section4{
+  background-color: #FFC0CB;
+  border: black 1px dashed;
+  width: 40%;
+  min-height: 400px;
+
+
+}
+
+
+
+
 
 /* section_5 */
 .section_5{
   background-color: #D3D3D3;
-
-  
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
 
 
 .box_section5{
 
   background-color: #228B22;
+  width: 60%;
+  min-height: 700px;
+
 }
 
 
@@ -208,119 +322,92 @@ nav ul li a:hover{
 
 /* section_6 */
 .section_6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  padding-top: 10px;
+  padding-bottom: 40px;
   background-color: #23272A;
+  width: 100%;
 
+  border-bottom: white 1px solid;
+}
+
+.container_box_section6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+  /* background-color: rgb(255, 51, 0); */ /*solo per vedere e comprendere le dimensioni del container*/
+  border: black 1px dashed;
+  width: 60%;
+  /* min-height: 300px; */
 
 
 }
 
+.box1_section6{
+  background-color: #F08080;
+  border: black 1px dashed;
+  width: 40%;
+  min-height: 400px;
+  
+}
 
+
+.box2_section6{
+  background-color: #20B2AA;
+  border: rgb(255, 255, 255) 1px dashed;
+  width: 15%;
+  min-height: 400px;
+
+}
 
 
 
 /* footer */
-footer{
+/* footer{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+
   background-color: #23272A;
+
+} */
+
+.container_footer{
+  border: black 1px dashed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  background-color: #7fffd4;
+  width: 60%;
+  min-height: 40px;
+  padding: 20px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#logo_footer{
+  background-color: #ffb6c1;
+  border: black 1px dashed;
+  padding: 5px;
+  
+  
+}
+
+footer .button{
+  background-color: #ffb6c1;
+  border: black 1px dashed;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  
+}
 
 
 
