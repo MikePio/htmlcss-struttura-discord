@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -11,9 +12,11 @@ header{
   align-items: center;
 
   background-color: #ADD8E6;
-  color: white;
+  color: rgb(0, 0, 0);
   width: 100%;
-  min-height: 70px;
+  min-height: 70px; /* todo provvisorio*/
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 main{
@@ -30,9 +33,8 @@ footer{
   width: 100%;
   background-color: #23272A;
   min-height: 70px; /* todo provvisorio*/ 
-  padding: 40px;
+  padding-top: 20px;
   padding-bottom: 0;
-  /* padding-top: 20px; */
 
 }
 
@@ -47,7 +49,7 @@ footer{
   align-items: center;
   flex-wrap: wrap;
 
-  padding: 10px;
+  /* padding: 10px; */
   background-color: #DDA820;
   width: 60%;
   min-height: 40px;
@@ -60,13 +62,26 @@ footer{
   border: black 1px dashed;
   background-color: #DDA820;
 
+  width: 20%;
+  min-height: 40px;
+  padding: 10px;
+
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+
+
 }
 
 header nav{
-  /* display: flex;
-  justify-content: space-around; */
   border: black 1px dashed;
   background-color: #DDA820;
+
+  min-width: 60%;
+  min-height: 40px;
+  padding: 10px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+
 
 
 
@@ -75,19 +90,25 @@ header nav{
 nav ul{
   list-style: none;
   display: flex;
-  justify-content: space-between;
-
+  justify-content: center;
 
 
 }
 
 nav ul li {
-  margin-right: 15px;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
+
+nav ul li:last-child {
+  margin-right: 0px;
+}
+
 
 nav ul li a{
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
 
 }
 
@@ -100,7 +121,15 @@ header .login{
   border: black 1px dashed;
   background-color: #DDA820;
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
+
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  padding: 10px;
+  width: 20%;
+  min-height: 40px;
+  text-align: end;
+
 
 }
 
@@ -130,7 +159,12 @@ header .login{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  /* ! è la stessa cosa per il padding solo che utilizzando padding-left: auto; padding-right: auto;  aumenta lo spazio laterale di poco   */
+  /* padding: 40px;
+  padding-left: auto;
+  padding-right: auto; */
+  padding-top: 40px;
+  padding-bottom: 40px;
 
 }
 
@@ -152,7 +186,8 @@ header .login{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #ffffff;
   
   
@@ -202,7 +237,8 @@ header .login{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #D3D3D3;
 
 }
@@ -253,7 +289,8 @@ header .login{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #ffffff;
   
   
@@ -303,7 +340,8 @@ header .login{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 
@@ -312,6 +350,8 @@ header .login{
   background-color: #228B22;
   width: 60%;
   min-height: 700px;
+  border: black 1px dashed;
+
 
 }
 
@@ -325,7 +365,6 @@ header .login{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
   padding-top: 10px;
   padding-bottom: 40px;
   background-color: #23272A;
@@ -369,16 +408,6 @@ header .login{
 
 
 /* footer */
-/* footer{
-  display: flex;
-  justify-content: center;
-  align-items: end;
-
-
-  background-color: #23272A;
-
-} */
-
 .container_footer{
   border: black 1px dashed;
   display: flex;
