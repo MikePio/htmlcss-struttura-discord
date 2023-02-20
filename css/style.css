@@ -1,0 +1,330 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ADD8E6;
+  color: white;
+  width: 100%;
+  min-height: 70px;
+}
+
+main{
+  background-color: rgba(255, 230, 0, 0.296);
+  width: 100%;
+  min-height: 90px; /* todo provvisorio*/
+}
+
+footer{
+  background-color: rgba(255, 128, 0, 0.077);
+  width: 100%;
+  min-height: 90px; /* todo provvisorio*/ 
+}
+
+
+
+/* header */
+
+.container_header{
+  border: black 1px dashed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding: 10px;
+  background-color: #DDA820;
+  width: 60%;
+  min-height: 40px;
+
+
+  
+}
+
+#logo_header{
+  border: black 1px dashed;
+  background-color: #DDA820;
+
+}
+
+header nav{
+  /* display: flex;
+  justify-content: space-around; */
+  border: black 1px dashed;
+  background-color: #DDA820;
+
+
+
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+
+
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+
+#login{
+  border: black 1px dashed;
+  background-color: #DDA820;
+  text-decoration: none;
+  color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* main */
+
+/* .standard_container_box{
+  border: black 1px dashed;
+  width: 50%;
+  min-height: 300px;
+  background-color: yellowgreen;
+} */
+
+
+
+/* section_1 */
+.section_1{
+  background-color: #00008B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+
+}
+
+.box_section1{
+  background-color: #EE82EE;
+  border: black 1px dashed;
+  width: 50%;
+  min-height: 300px;
+
+
+}
+
+
+
+
+/* section_2 */
+
+.section_2{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.box1_section2{
+  background-color: #1E90FF;
+  border: black 1px dashed;
+  width: 30%;
+  min-height: 300px;
+  
+  
+}
+
+
+.box2_section2{
+  background-color: #FFC0CB;
+  border: black 1px dashed;
+  width: 20%;
+  min-height: 300px;
+
+
+}
+
+
+
+
+
+
+/* section_3 */
+.section_3{
+  background-color: #D3D3D3;
+
+}
+
+/* section_4 */
+.section_4{
+
+  background-color: #ffffff;
+  
+}
+
+/* section_5 */
+.section_5{
+  background-color: #D3D3D3;
+
+  
+
+
+}
+
+
+.box_section5{
+
+  background-color: #228B22;
+}
+
+
+
+
+
+
+/* section_6 */
+.section_6{
+  background-color: #23272A;
+
+
+
+}
+
+
+
+
+
+/* footer */
+footer{
+  background-color: #23272A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
